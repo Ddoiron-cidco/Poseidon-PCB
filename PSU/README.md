@@ -1,4 +1,3 @@
-# Poseidon-PCB
-PCBs for Poseidon Project
+# Psu
 
-PCBs are design with Kicad 5.0
+PSU
