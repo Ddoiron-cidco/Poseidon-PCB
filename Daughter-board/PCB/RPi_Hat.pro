@@ -1,4 +1,4 @@
-update=2020-01-28 14:58:51
+update=2020-01-29 14:45:47
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.01
+MinTrackWidth=0
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
@@ -44,6 +44,7 @@ TrackWidth6=0.2
 TrackWidth7=0.25
 TrackWidth8=0.5
 TrackWidth9=1
+TrackWidth10=1.27
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -70,7 +71,7 @@ OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0
-SolderMaskMinWidth=0
+SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]

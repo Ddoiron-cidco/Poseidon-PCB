@@ -21,7 +21,7 @@ AR Path="/5516AE26" Ref="J2"  Part="1"
 AR Path="/5515D395/5516AE26" Ref="J2"  Part="1" 
 F 0 "J2" H 5900 3000 60  0000 C CNN
 F 1 "RPi_GPIO" H 5900 2900 60  0000 C CNN
-F 2 "RPi_Hat:Pin_Header_Straight_2x20" H 5150 2750 60  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 5150 2750 60  0001 C CNN
 F 3 "" H 5150 2750 60  0000 C CNN
 	1    5150 2750
 	1    0    0    -1  
@@ -263,31 +263,9 @@ U 1 1 5E35FFF9
 P 10300 1750
 F 0 "J9" H 10380 1742 50  0000 L CNN
 F 1 "Conn_01x04" H 10380 1651 50  0000 L CNN
-F 2 "" H 10300 1750 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 10300 1750 50  0001 C CNN
 F 3 "~" H 10300 1750 50  0001 C CNN
 	1    10300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q2
-U 1 1 5E362224
-P 9150 2050
-F 0 "Q2" H 9354 2096 50  0000 L CNN
-F 1 "2N7002" H 9354 2005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9350 1975 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9150 2050 50  0001 L CNN
-	1    9150 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q1
-U 1 1 5E362E69
-P 8400 1950
-F 0 "Q1" H 8604 1996 50  0000 L CNN
-F 1 "2N7002" H 8604 1905 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8600 1875 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 8400 1950 50  0001 L CNN
-	1    8400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -295,21 +273,10 @@ L device:R_US R1
 U 1 1 5E36419D
 P 8200 2100
 F 0 "R1" H 8268 2146 50  0000 L CNN
-F 1 "R_US" H 8268 2055 50  0000 L CNN
-F 2 "" V 8240 2090 50  0001 C CNN
+F 1 "1k" H 8268 2055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8240 2090 50  0001 C CNN
 F 3 "~" H 8200 2100 50  0001 C CNN
 	1    8200 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R_US R2
-U 1 1 5E364C8E
-P 8950 2200
-F 0 "R2" H 9018 2246 50  0000 L CNN
-F 1 "R_US" H 9018 2155 50  0000 L CNN
-F 2 "" V 8990 2190 50  0001 C CNN
-F 3 "~" H 8950 2200 50  0001 C CNN
-	1    8950 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -317,25 +284,14 @@ L device:R_US R3
 U 1 1 5E3651E9
 P 9700 2300
 F 0 "R3" H 9768 2346 50  0000 L CNN
-F 1 "R_US" H 9768 2255 50  0000 L CNN
-F 2 "" V 9740 2290 50  0001 C CNN
+F 1 "1k" H 9768 2255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9740 2290 50  0001 C CNN
 F 3 "~" H 9700 2300 50  0001 C CNN
 	1    9700 2300
 	1    0    0    -1  
 $EndComp
 Text GLabel 10100 1650 0    50   Input ~ 0
 5V
-$Comp
-L Transistor_FET:2N7002 Q3
-U 1 1 5E3665A2
-P 9900 2150
-F 0 "Q3" H 10104 2196 50  0000 L CNN
-F 1 "2N7002" H 10104 2105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10100 2075 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9900 2150 50  0001 L CNN
-	1    9900 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 1850 10100 1850
 Wire Wire Line
@@ -364,15 +320,59 @@ Wire Wire Line
 	8200 1950 7950 1950
 Wire Wire Line
 	7950 1950 7950 2500
-Connection ~ 8200 1950
 Wire Wire Line
 	8950 2050 8800 2050
-Wire Wire Line
-	8800 2050 8800 2650
-Connection ~ 8950 2050
 Wire Wire Line
 	9700 2150 9500 2150
 Wire Wire Line
 	9500 2150 9500 2750
+Wire Wire Line
+	8800 2050 8800 2650
+$Comp
+L device:R_US R2
+U 1 1 5E364C8E
+P 8950 2200
+F 0 "R2" H 9018 2246 50  0000 L CNN
+F 1 "1k" H 9018 2155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8990 2190 50  0001 C CNN
+F 3 "~" H 8950 2200 50  0001 C CNN
+	1    8950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q1
+U 1 1 5E62FEC6
+P 8400 1950
+F 0 "Q1" H 8604 1996 50  0000 L CNN
+F 1 "2N7000" H 8604 1905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8600 1875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8400 1950 50  0001 L CNN
+	1    8400 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 1950
+$Comp
+L Transistor_FET:2N7000 Q2
+U 1 1 5E630D12
+P 9150 2050
+F 0 "Q2" H 9354 2096 50  0000 L CNN
+F 1 "2N7000" H 9354 2005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9350 1975 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9150 2050 50  0001 L CNN
+	1    9150 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 2050
+$Comp
+L Transistor_FET:2N7000 Q3
+U 1 1 5E631278
+P 9900 2150
+F 0 "Q3" H 10104 2196 50  0000 L CNN
+F 1 "2N7000" H 10104 2105 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10100 2075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9900 2150 50  0001 L CNN
+	1    9900 2150
+	1    0    0    -1  
+$EndComp
 Connection ~ 9700 2150
 $EndSCHEMATC

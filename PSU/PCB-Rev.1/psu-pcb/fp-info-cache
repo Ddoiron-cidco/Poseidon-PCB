@@ -1,4 +1,4 @@
-16941057028643088
+16945798027801947
 Adafruit
 BNO055
 
@@ -68669,6 +68669,13 @@ rotary encoder
 0
 5
 4
+SKMW30G-12
+SKMW30G12
+SKMW30
+Power Supply
+0
+6
+6
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -75263,6 +75270,20 @@ varistor SIOV
 0
 2
 2
+cidco
+MountingHole_2.7mm_M2.5_Pad
+Mounting Hole 2.7mm, M2.5
+mounting hole 2.7mm m2.5
+0
+0
+0
+cidco
+Pin_Header_Straight_2x20
+Through hole pin header
+pin header
+0
+40
+40
 cidco
 logo cidco
 
