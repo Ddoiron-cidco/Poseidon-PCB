@@ -1045,12 +1045,12 @@ $EndComp
 $Comp
 L power:+12V #PWR0142
 U 1 1 5E3131DA
-P 6700 1000
-F 0 "#PWR0142" H 6700 850 50  0001 C CNN
-F 1 "+12V" H 6715 1173 50  0000 C CNN
-F 2 "" H 6700 1000 50  0001 C CNN
-F 3 "" H 6700 1000 50  0001 C CNN
-	1    6700 1000
+P 6400 1000
+F 0 "#PWR0142" H 6400 850 50  0001 C CNN
+F 1 "+12V" H 6415 1173 50  0000 C CNN
+F 2 "" H 6400 1000 50  0001 C CNN
+F 3 "" H 6400 1000 50  0001 C CNN
+	1    6400 1000
 	1    0    0    -1  
 $EndComp
 Connection ~ 9200 3700
@@ -1480,231 +1480,199 @@ Wire Wire Line
 $Comp
 L Device:CP1 C12
 U 1 1 5E343D01
-P 8200 1150
-F 0 "C12" H 8315 1196 50  0000 L CNN
-F 1 "CP1" H 8315 1105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 8200 1150 50  0001 C CNN
-F 3 "~" H 8200 1150 50  0001 C CNN
-	1    8200 1150
+P 6950 1150
+F 0 "C12" H 7065 1196 50  0000 L CNN
+F 1 "CP1" H 7065 1105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 6950 1150 50  0001 C CNN
+F 3 "~" H 6950 1150 50  0001 C CNN
+	1    6950 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L psu-pcb-rescue:13R106C-dk_Fixed-Inductors L4
 U 1 1 5E343DEE
-P 8000 1000
-F 0 "L4" H 8000 780 60  0000 C CNN
-F 1 "13R106C" H 8000 886 60  0000 C CNN
-F 2 "digikey-footprints:Inductor_13R106C" H 8200 1200 60  0001 L CNN
-F 3 "https://www.murata-ps.com/data/magnetics/kmp_1300r.pdf" H 8200 1300 60  0001 L CNN
-F 4 "811-2058-ND" H 8200 1400 60  0001 L CNN "Digi-Key_PN"
-F 5 "13R106C" H 8200 1500 60  0001 L CNN "MPN"
-F 6 "Inductors, Coils, Chokes" H 8200 1600 60  0001 L CNN "Category"
-F 7 "Fixed Inductors" H 8200 1700 60  0001 L CNN "Family"
-F 8 "https://www.murata-ps.com/data/magnetics/kmp_1300r.pdf" H 8200 1800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-power-solutions-inc/13R106C/811-2058-ND/1998245" H 8200 1900 60  0001 L CNN "DK_Detail_Page"
-F 10 "FIXED IND 10MH 85MA 23.8 OHM TH" H 8200 2000 60  0001 L CNN "Description"
-F 11 "Murata Power Solutions Inc." H 8200 2100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8200 2200 60  0001 L CNN "Status"
-	1    8000 1000
+P 6750 1000
+F 0 "L4" H 6750 780 60  0000 C CNN
+F 1 "13R106C" H 6750 886 60  0000 C CNN
+F 2 "digikey-footprints:Inductor_13R106C" H 6950 1200 60  0001 L CNN
+F 3 "https://www.murata-ps.com/data/magnetics/kmp_1300r.pdf" H 6950 1300 60  0001 L CNN
+F 4 "811-2058-ND" H 6950 1400 60  0001 L CNN "Digi-Key_PN"
+F 5 "13R106C" H 6950 1500 60  0001 L CNN "MPN"
+F 6 "Inductors, Coils, Chokes" H 6950 1600 60  0001 L CNN "Category"
+F 7 "Fixed Inductors" H 6950 1700 60  0001 L CNN "Family"
+F 8 "https://www.murata-ps.com/data/magnetics/kmp_1300r.pdf" H 6950 1800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-power-solutions-inc/13R106C/811-2058-ND/1998245" H 6950 1900 60  0001 L CNN "DK_Detail_Page"
+F 10 "FIXED IND 10MH 85MA 23.8 OHM TH" H 6950 2000 60  0001 L CNN "Description"
+F 11 "Murata Power Solutions Inc." H 6950 2100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6950 2200 60  0001 L CNN "Status"
+	1    6750 1000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:CP1 C11
 U 1 1 5E343EBD
-P 7800 1150
-F 0 "C11" H 7915 1196 50  0000 L CNN
-F 1 "CP1" H 7915 1105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 7800 1150 50  0001 C CNN
-F 3 "~" H 7800 1150 50  0001 C CNN
-	1    7800 1150
+P 6550 1150
+F 0 "C11" H 6665 1196 50  0000 L CNN
+F 1 "CP1" H 6665 1105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 6550 1150 50  0001 C CNN
+F 3 "~" H 6550 1150 50  0001 C CNN
+	1    6550 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0151
 U 1 1 5E343FA1
-P 7800 1300
-F 0 "#PWR0151" H 7800 1050 50  0001 C CNN
-F 1 "GND" H 7805 1127 50  0000 C CNN
-F 2 "" H 7800 1300 50  0001 C CNN
-F 3 "" H 7800 1300 50  0001 C CNN
-	1    7800 1300
+P 6550 1300
+F 0 "#PWR0151" H 6550 1050 50  0001 C CNN
+F 1 "GND" H 6555 1127 50  0000 C CNN
+F 2 "" H 6550 1300 50  0001 C CNN
+F 3 "" H 6550 1300 50  0001 C CNN
+	1    6550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0152
 U 1 1 5E344016
-P 8200 1300
-F 0 "#PWR0152" H 8200 1050 50  0001 C CNN
-F 1 "GND" H 8205 1127 50  0000 C CNN
-F 2 "" H 8200 1300 50  0001 C CNN
-F 3 "" H 8200 1300 50  0001 C CNN
-	1    8200 1300
+P 6950 1300
+F 0 "#PWR0152" H 6950 1050 50  0001 C CNN
+F 1 "GND" H 6955 1127 50  0000 C CNN
+F 2 "" H 6950 1300 50  0001 C CNN
+F 3 "" H 6950 1300 50  0001 C CNN
+	1    6950 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 1000 8550 1000
-Connection ~ 8200 1000
+Connection ~ 6950 1000
 Wire Wire Line
 	8550 1000 9600 1000
-Connection ~ 8550 1000
 $Comp
 L psu-pcb-rescue:FQP27P06-dk_Transistors-FETs-MOSFETs-Single Q4
 U 1 1 5E34A421
-P 7450 1000
-F 0 "Q4" V 7717 1000 60  0000 C CNN
-F 1 "FQP27P06" V 7611 1000 60  0000 C CNN
-F 2 "digikey-footprints:TO-220-3" H 7650 1200 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF" H 7650 1300 60  0001 L CNN
-F 4 "FQP27P06-ND" H 7650 1400 60  0001 L CNN "Digi-Key_PN"
-F 5 "FQP27P06" H 7650 1500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7650 1600 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 7650 1700 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF" H 7650 1800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/FQP27P06/FQP27P06-ND/965349" H 7650 1900 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET P-CH 60V 27A TO-220" H 7650 2000 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 7650 2100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7650 2200 60  0001 L CNN "Status"
-	1    7450 1000
+P 7950 1000
+F 0 "Q4" V 8217 1000 60  0000 C CNN
+F 1 "FQP27P06" V 8111 1000 60  0000 C CNN
+F 2 "digikey-footprints:TO-220-3" H 8150 1200 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF" H 8150 1300 60  0001 L CNN
+F 4 "FQP27P06-ND" H 8150 1400 60  0001 L CNN "Digi-Key_PN"
+F 5 "FQP27P06" H 8150 1500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8150 1600 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 8150 1700 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF" H 8150 1800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/FQP27P06/FQP27P06-ND/965349" H 8150 1900 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 60V 27A TO-220" H 8150 2000 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 8150 2100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8150 2200 60  0001 L CNN "Status"
+	1    7950 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R15
 U 1 1 5E34A5C7
-P 7100 1150
-F 0 "R15" H 7168 1196 50  0000 L CNN
-F 1 "R_US" H 7168 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7140 1140 50  0001 C CNN
-F 3 "~" H 7100 1150 50  0001 C CNN
-	1    7100 1150
+P 7600 1150
+F 0 "R15" H 7668 1196 50  0000 L CNN
+F 1 "R_US" H 7668 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7640 1140 50  0001 C CNN
+F 3 "~" H 7600 1150 50  0001 C CNN
+	1    7600 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L psu-pcb-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single Q5
 U 1 1 5E34A6BB
-P 7550 1600
-F 0 "Q5" H 7658 1653 60  0000 L CNN
-F 1 "2N7002" H 7658 1547 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 7750 1800 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7750 1900 60  0001 L CNN
-F 4 "2N7002NCT-ND" H 7750 2000 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002" H 7750 2100 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7750 2200 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 7750 2300 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7750 2400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 7750 2500 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 115MA SOT-23" H 7750 2600 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 7750 2700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7750 2800 60  0001 L CNN "Status"
-	1    7550 1600
+P 8050 1600
+F 0 "Q5" H 8158 1653 60  0000 L CNN
+F 1 "2N7002" H 8158 1547 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 8250 1800 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8250 1900 60  0001 L CNN
+F 4 "2N7002NCT-ND" H 8250 2000 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N7002" H 8250 2100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8250 2200 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 8250 2300 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8250 2400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 8250 2500 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 60V 115MA SOT-23" H 8250 2600 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 8250 2700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8250 2800 60  0001 L CNN "Status"
+	1    8050 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 1000 7250 1000
+	7600 1000 7750 1000
 Wire Wire Line
-	7100 1300 7550 1300
+	7600 1300 8050 1300
 Wire Wire Line
-	7550 1400 7550 1300
-Connection ~ 7550 1300
+	8050 1400 8050 1300
+Connection ~ 8050 1300
 $Comp
 L power:GND #PWR0153
 U 1 1 5E35075B
-P 7550 1800
-F 0 "#PWR0153" H 7550 1550 50  0001 C CNN
-F 1 "GND" H 7555 1627 50  0000 C CNN
-F 2 "" H 7550 1800 50  0001 C CNN
-F 3 "" H 7550 1800 50  0001 C CNN
-	1    7550 1800
+P 8050 1800
+F 0 "#PWR0153" H 8050 1550 50  0001 C CNN
+F 1 "GND" H 8055 1627 50  0000 C CNN
+F 2 "" H 8050 1800 50  0001 C CNN
+F 3 "" H 8050 1800 50  0001 C CNN
+	1    8050 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R14
 U 1 1 5E3507D6
-P 6800 1150
-F 0 "R14" H 6868 1196 50  0000 L CNN
-F 1 "R_US" H 6868 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6840 1140 50  0001 C CNN
-F 3 "~" H 6800 1150 50  0001 C CNN
-	1    6800 1150
+P 7300 1150
+F 0 "R14" H 7368 1196 50  0000 L CNN
+F 1 "R_US" H 7368 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7340 1140 50  0001 C CNN
+F 3 "~" H 7300 1150 50  0001 C CNN
+	1    7300 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 1000 6800 1000
-Connection ~ 7100 1000
-Connection ~ 6800 1000
+	7600 1000 7300 1000
+Connection ~ 7600 1000
+Connection ~ 7300 1000
 Wire Wire Line
-	6800 1000 6700 1000
+	7300 1300 7300 1700
 Wire Wire Line
-	6800 1300 6800 1700
+	7300 1700 7550 1700
 Wire Wire Line
-	6800 1700 7050 1700
-Wire Wire Line
-	7650 1000 7800 1000
-Connection ~ 7800 1000
+	6400 1000 6550 1000
+Connection ~ 6550 1000
 $Comp
 L psu-pcb-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single Q1
 U 1 1 5E3556F9
-P 7050 2000
-F 0 "Q1" H 7158 2053 60  0000 L CNN
-F 1 "2N7002" H 7158 1947 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 7250 2200 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7250 2300 60  0001 L CNN
-F 4 "2N7002NCT-ND" H 7250 2400 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002" H 7250 2500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7250 2600 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 7250 2700 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7250 2800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 7250 2900 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 115MA SOT-23" H 7250 3000 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 7250 3100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7250 3200 60  0001 L CNN "Status"
-	1    7050 2000
+P 7550 2000
+F 0 "Q1" H 7658 2053 60  0000 L CNN
+F 1 "2N7002" H 7658 1947 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 7750 2200 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7750 2300 60  0001 L CNN
+F 4 "2N7002NCT-ND" H 7750 2400 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N7002" H 7750 2500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7750 2600 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7750 2700 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7750 2800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 7750 2900 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 60V 115MA SOT-23" H 7750 3000 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 7750 3100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7750 3200 60  0001 L CNN "Status"
+	1    7550 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0154
 U 1 1 5E3557BE
-P 7050 2200
-F 0 "#PWR0154" H 7050 1950 50  0001 C CNN
-F 1 "GND" H 7055 2027 50  0000 C CNN
-F 2 "" H 7050 2200 50  0001 C CNN
-F 3 "" H 7050 2200 50  0001 C CNN
-	1    7050 2200
+P 7550 2200
+F 0 "#PWR0154" H 7550 1950 50  0001 C CNN
+F 1 "GND" H 7555 2027 50  0000 C CNN
+F 2 "" H 7550 2200 50  0001 C CNN
+F 3 "" H 7550 2200 50  0001 C CNN
+	1    7550 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 1800 7050 1700
-Connection ~ 7050 1700
+	7550 1800 7550 1700
+Connection ~ 7550 1700
 Wire Wire Line
-	7050 1700 7250 1700
-$Comp
-L Device:R_US R11
-U 1 1 5E3573B4
-P 6600 2250
-F 0 "R11" H 6668 2296 50  0000 L CNN
-F 1 "R_US" H 6668 2205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6640 2240 50  0001 C CNN
-F 3 "~" H 6600 2250 50  0001 C CNN
-	1    6600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0155
-U 1 1 5E35745A
-P 6600 2400
-F 0 "#PWR0155" H 6600 2150 50  0001 C CNN
-F 1 "GND" H 6605 2227 50  0000 C CNN
-F 2 "" H 6600 2400 50  0001 C CNN
-F 3 "" H 6600 2400 50  0001 C CNN
-	1    6600 2400
-	1    0    0    -1  
-$EndComp
+	7550 1700 7750 1700
 Wire Wire Line
-	6750 2100 6600 2100
-Text GLabel 6450 2100 0    50   Input ~ 0
-12v_on
-Wire Wire Line
-	6450 2100 6600 2100
-Connection ~ 6600 2100
+	7250 2100 7100 2100
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J8
 U 1 1 5E361323
@@ -1754,4 +1722,36 @@ Wire Wire Line
 	3950 4000 4650 4000
 Wire Wire Line
 	4300 4100 4650 4100
+Wire Wire Line
+	6950 2100 7100 2100
+Text GLabel 6950 2100 0    50   Input ~ 0
+12v_on
+$Comp
+L power:GND #PWR0155
+U 1 1 5E35745A
+P 7100 2400
+F 0 "#PWR0155" H 7100 2150 50  0001 C CNN
+F 1 "GND" H 7105 2227 50  0000 C CNN
+F 2 "" H 7100 2400 50  0001 C CNN
+F 3 "" H 7100 2400 50  0001 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 5E3573B4
+P 7100 2250
+F 0 "R11" H 7168 2296 50  0000 L CNN
+F 1 "R_US" H 7168 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7140 2240 50  0001 C CNN
+F 3 "~" H 7100 2250 50  0001 C CNN
+	1    7100 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 2100
+Wire Wire Line
+	6950 1000 7300 1000
+Wire Wire Line
+	8150 1000 8550 1000
+Connection ~ 8550 1000
 $EndSCHEMATC
