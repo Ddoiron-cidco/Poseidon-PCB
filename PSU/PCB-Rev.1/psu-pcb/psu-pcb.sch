@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:psu-pcb-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -1940,7 +1941,7 @@ Connection ~ 7300 1300
 Wire Wire Line
 	7300 1300 7300 1600
 $Comp
-L SKMW30G-12:SKMW30G-12 PS2
+L psu-pcb-rescue:SKMW30G-12-SKMW30G-12 PS2
 U 1 1 5E6B71D5
 P 6500 5100
 F 0 "PS2" H 7100 5365 50  0000 C CNN
